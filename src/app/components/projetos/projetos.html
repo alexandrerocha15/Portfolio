@@ -1,5 +1,5 @@
 <section id="projetos" class="bg-light text-dark">
-  <article class="container d-flex flex-column my-5">
+  <article class="mt-5 container d-flex flex-column my-5">
     <h2 class="display-5 fw-medium fst-italic text-center text-primary">Projetos</h2>
 
     <p class="mt-5 fs-5 text-center">
@@ -11,7 +11,7 @@
     <ol>
       @for (projeto of projetos; track projeto.titulo; let indice = $index) {
         <li class="d-flex align-items-start gap-4 border-bottom border-dark-subtle py-4">
-          <span class="fs-1 fw-medium fst-italic" aria-hidden="true">{{
+          <span class="fs-1 fw-medium fst-italic text-secondary" aria-hidden="true">{{
             (indice + 1).toString().padStart(2, '0')
           }}</span>
 

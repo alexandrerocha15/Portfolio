@@ -25,8 +25,8 @@ export class Navbar {
       icone: 'bi bi-stars'
     },
     {
-      titulo: 'Portfólio',
-      url: '#portfolio',
+      titulo: 'Projetos',
+      url: '#projetos',
       icone: 'bi bi-card-list'
     }
   ];

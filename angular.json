@@ -74,7 +74,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://alexandrerocha15.github.io/portfolio/",
+            "baseHref": "https://alexandrerocha15.github.io/Portfolio/",
             "name": "alexandrerocha15",
             "email": "juny14_15@hotmail.com"
           }
