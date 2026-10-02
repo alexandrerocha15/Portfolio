@@ -2,7 +2,7 @@
 
 /*
 $cor-primaria: #1F2A45;
-$cor-segundaria: #EFAF3A;
+$cor-secundaria: #EFAF3A;
 */
 $cor-primaria: #ec6afa;
 $cor-secundaria: #6d2bc2;
@@ -42,7 +42,7 @@ section {
     background: linear-gradient(
         90deg,
         $cor-primaria,
-        $cor-segundaria 60%
+        $cor-secundaria 60%
     );
 
     background-clip: text;
@@ -53,12 +53,11 @@ section {
     background: linear-gradient(
         90deg,
         $cor-primaria,
-        $cor-segundaria 60%
+        $cor-secundaria 60%
     );
 
     border-radius: 33% 67% 53% 47% / 66% 41% 59% 34%;
     height: 25rem;
     width: 25rem;
 }
-
 */
